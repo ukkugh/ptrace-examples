@@ -1,5 +1,5 @@
 .POSIX:
-CC     = cc
+CC     = gcc
 CFLAGS = -std=c99 -Wall -Wextra -O3 -g3
 
 all: minimal_strace xpledge example
